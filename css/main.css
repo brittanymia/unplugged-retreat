@@ -138,6 +138,14 @@
     font-size: .875em;
     line-height: 1.285;
   }
+
+  img {
+    width: 100%
+  }
+
+  figure {
+    margin: 0;
+  }
    
   address {
    font-style: normal;
