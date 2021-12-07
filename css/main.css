@@ -249,7 +249,6 @@
     margin: 20px 0;
   }
   
-  
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
   /* Hero Area */
@@ -369,21 +368,21 @@
     align-items: center;
     flex-flow: row wrap;
   }
-
+  
   .map figure {
     width: 100%;
-    height: 0;
-    padding-bottom: 125%;
+    height: 0; 
+    padding-bottom: 125%; 
     overflow: hidden;
     position: relative;
   }
-
+  
   .map iframe {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
   }
   
   .contact-section {
@@ -587,7 +586,7 @@
   
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 40%;
+      width: 35%;
       margin: 0;
     }
   
@@ -673,6 +672,10 @@
       width: 45%;
     }
   
+    .map figure {
+      padding-bottom: 45.5%;
+    }
+    
     .contact-section .content-wrapper h2 {
       width: 80%;
     }
@@ -747,7 +750,7 @@
   
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 30%;
+      width: 40%;
     }
   
     .form-description p {
@@ -755,7 +758,6 @@
     }
   
     /* Features */
-  
   
     .features h2 {
       width: 90%;
@@ -766,21 +768,24 @@
     }
     
     /* Reviews */
-    .reviews article div {
-      width: 42%;
-    }
   
     .reviews h2 {
-      padding-bottom: 50px;
+      padding-bottom: 50px; 
+    }
+    
+    .reviews article div {
+      width: 42%;
     }
   
     footer h4 {
       font-size: 1.875em;
     }
-  
     /* ==========================================================================
     About Page
     ========================================================================== */
+    .map figure {
+      padding-bottom: 37.5%;
+    }
   
     .mission h2,
     .contact-section .content-wrapper h2 {
